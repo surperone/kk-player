@@ -6,7 +6,7 @@
 将加入以下wp模板函数functions.php
 
 
-
+从这里开始插入
 function get_lrc($lrc_url){   
     if( $lrc_url ){   
         // 远程获取歌词内容   
@@ -68,7 +68,9 @@ function music($atts,$content = null){
 add_shortcode('music' , 'music');
 ?>
 
+这里是结尾
 
 
-调用方式
-[music lrc="1.lrc"]1.mp3[/music]
+
+调用方式   使用短代码调用
+[music lrc="1.lrc"]1.mp3[/music]   
